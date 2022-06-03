@@ -1,5 +1,6 @@
 # Docs
 -3 squares that slide around in a satisfying way
+
 ```
 <ThreeSlidingSquares
 	primColor="pink"
