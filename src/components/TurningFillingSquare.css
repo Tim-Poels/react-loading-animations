@@ -1,0 +1,105 @@
+
+#TurningFillingSquare {
+  box-sizing: border-box;
+  background-color: transparent;
+  height: 60%; /*This is the size you want to change*/
+  width: 60%; /*This is the size you want to change*/
+  border: solid white;
+  display: flex;
+  align-items: flex-end;
+  animation: TurningFillingSquare 6.5s infinite linear;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+#TurningFillingSquarebox {
+  box-sizing: border-box;
+  height: 0%;
+  width: 100%;
+  background-color: white;
+  animation: TurningFillingSquarebox 6.5s infinite linear;
+}
+
+@keyframes TurningFillingSquare {
+  0% {
+    transform: rotate(0deg);
+    align-items: flex-end;
+  }
+  12.5% {
+    transform: rotate(0deg);
+    border-radius: 10%;
+  }
+  18.75% {
+    border-radius: 50%;
+  }
+  25% {
+    transform: rotate(540deg);
+    border-radius: 10%;
+  }
+  37.5% {
+    transform: rotate(540deg);
+    align-items: flex-end;
+    border-radius: 10%;
+  }
+  43.75% {
+    border-radius: 50%;
+  }
+  50% {
+    transform: rotate(1080deg);
+    align-items: flex-start;
+    border-radius: 10%;
+  }
+  62.5% {
+    transform: rotate(1080deg);
+    border-radius: 10%;
+  }
+  68.75% {
+    border-radius: 50%;
+  }
+  75% {
+    transform: rotate(540deg);
+    border-radius: 10%;
+  }
+  87.5% {
+    transform: rotate(540deg);
+    border-radius: 10%;
+  }
+  93.75% {
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(0deg);
+    align-items: flex-start;
+    border-radius: 10%;
+  }
+}
+
+@keyframes TurningFillingSquarebox {
+  0% {
+    height: 0%;
+  }
+  12.5% {
+    height: 100%;
+  }
+  25% {
+    height: 100%;
+  }
+  37.5% {
+    height: 0%;
+  }
+  50% {
+    height: 0%;
+  }
+  62.5% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  87.5% {
+    height: 0%;
+  }
+  100% {
+    height: 0%;
+  }
+}
