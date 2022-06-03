@@ -1,0 +1,129 @@
+#ThreeSlidingSquares {
+  box-sizing: border-box;
+  height: 50%; /*This is the size you want to change*/
+  width: 50%; /*This is the size you want to change*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  animation: ThreeSlidingSquares 4s linear infinite;
+}
+
+.ThreeSlidingSquaresbox {
+  box-sizing: border-box;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-width: 5vmin;
+  height: 40%;
+  width: 40%;
+  margin: 5%;
+}
+
+#ThreeSlidingSquaresbox1 {
+  animation: ThreeSlidingSquaresbox1 4s linear infinite;
+}
+
+#ThreeSlidingSquaresbox3 {
+  animation: ThreeSlidingSquaresbox3 4s linear infinite;
+}
+
+@keyframes ThreeSlidingSquares {
+  0% {
+    flex-direction: column;
+  }
+  25% {
+    flex-direction: column;
+  }
+  25.1%{
+    flex-direction: row;
+  }
+  50% {
+    flex-direction: row;
+  }
+  50.1% {
+    flex-direction: column;
+  }
+  75% {
+    flex-direction: column;
+  }
+  75.1% {
+    flex-direction: row;
+  }
+  100% {
+    flex-direction: row;
+  }
+}
+
+@keyframes ThreeSlidingSquaresbox1 {
+  0% {
+  
+  }
+  25% {
+    margin-right: 5%;
+  }
+  25.1% {
+    width: 40%;
+    margin-right: 55%;
+  }
+  37.5% {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  50% {
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 5%;
+  }
+  50.1% {
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 55%;
+  }
+  62.5% {
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  75% {
+    height: 40%;
+    margin-bottom: 55%;
+  }
+  75.1% {
+    margin-bottom: 5%;
+  }
+  100% {
+    
+  }
+}
+
+@keyframes ThreeSlidingSquaresbox3 {
+  0% {
+  }
+  12.5% {
+    height: 90%;
+    margin-top: 5%;
+  }
+  25% {
+    height: 40%;
+    margin-top: 55%;
+  }
+  25.1% {
+    margin-top: 5%;
+  }
+  75% {
+    margin-left: 5%;
+  }
+  75.1% {
+    margin-left: 55%;
+    width: 40%;
+  }
+  87.5% {
+    margin-left: 5%;
+    width: 90%;
+  }
+  100% {
+  }
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: rgb(23, 16, 70);
+  height: 100vmin;
+  width: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
