@@ -11,9 +11,9 @@
 -A square that fills then turns then empties and fills again
 ```
 <TurningFillingSquare
-    size="9vmin"
-    primColor="lightblue"
-    speed="5s"
-    borderWidth="1vmin"
-  />
+  size="9vmin"
+  primColor="lightblue"
+  speed="5s"
+  borderWidth="1vmin"
+/>
 ```

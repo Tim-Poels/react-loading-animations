@@ -5,6 +5,7 @@
   height: 60%; /*This is the size you want to change*/
   width: 60%; /*This is the size you want to change*/
   border: solid white;
+  border-width: 5vmin;
   display: flex;
   align-items: flex-end;
   animation: TurningFillingSquare 6.5s infinite linear;

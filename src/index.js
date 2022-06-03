@@ -6,11 +6,11 @@ import TurningFillingSquare from './components/TurningFillingSquare.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<TurningFillingSquare /*
+	<TurningFillingSquare 
     size="9vmin"
     primColor="lightblue"
     speed="5s"
-    borderWidth="1vmin"*/
+    borderWidth="1vmin"
   />
 );
 
