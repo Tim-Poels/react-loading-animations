@@ -1,6 +1,6 @@
 # Docs
 -3 squares that slide around in a satisfying way
-! [](./gifs/TurningFillingSquare.gif)
+<img src="./images/TurningFillingSquare.gif" width="40" height="40" />
 ```
 <ThreeSlidingSquares
 	primColor="pink"
