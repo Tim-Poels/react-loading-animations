@@ -1,0 +1,120 @@
+#CirclingShadows1-container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+#CirclingShadows1 {
+  position: absolute;
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 100%;
+  background-color: transparent;
+  box-shadow: 1px 5px 2px #e65c00;
+  animation: CirclingShadows1 3s infinite linear;
+}
+
+@keyframes CirclingShadows1 {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #e65c00;
+  }
+  33% {
+    transform: rotate(120deg);
+    box-shadow: 1px 5px 2px #18b201;
+  }
+  67% {
+    transform: rotate(240deg);
+    box-shadow: 1px 5px 2px #0456c8;
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px #e65c00;
+  }
+}
+
+#CirclingShadows1span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(155, 155, 155);
+  font-size: 200%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10%;
+}
+
+.CirclingShadows1dot {
+  font-size: 200%;
+}
+
+#CirclingShadows1dot1 {
+  animation: CirclingShadows1dot1 2s infinite linear;
+}
+
+#CirclingShadows1dot2 {
+  animation: CirclingShadows1dot2 2s infinite linear;
+}
+
+#CirclingShadows1dot3 {
+  animation: CirclingShadows1dot3 2s infinite linear;
+}
+
+@keyframes CirclingShadows1dot1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes CirclingShadows1dot2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes CirclingShadows1dot3 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
