@@ -4,18 +4,17 @@ import './index.css';
 import ThreeSlidingSquares from './components/ThreeSlidingSquares.js';
 import TurningFillingSquare from './components/TurningFillingSquare.js';
 import CirclingShadows1 from "./components/CirclingShadows1.js"
+import BarsJumpingAroundText from "./components/BarsJumpingAroundText.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<CirclingShadows1 
-    text="RENDERING"
-    textColor="orange"
-    containerSize="40vmin"
-    circleSize="25vmin"
-    textSize="20px"
-    textTopMargin="25px"
-    circleSpeed="1.5s"
-    dotSpeed="1s"
+  <BarsJumpingAroundText
+  text="Please Wait" 
+  primColor="orange"
+  width="40vmin"
+  height="15vmin"
+  textSize="4vmin"
+  speed="1.5s"
   />
 );
 

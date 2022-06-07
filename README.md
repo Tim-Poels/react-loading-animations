@@ -1,5 +1,6 @@
 # Docs
-##All animations have a standard template that can be manipulated through props, you can use as many or as few as you want
+All animations have a standard template that can be manipulated through props, you can use as many or as few as you want
+
 --3 squares that slide around in a satisfying way
   -any color possible
   -size can be in pretty much any mesurement 
@@ -45,5 +46,22 @@
   textTopMargin="25px"
   circleSpeed="1.5s"
   dotSpeed="1s"
+/>
+```
+--A piece of text with 2 bars jumping over/under it
+  -what text needs to be there
+  -color of the moving bars and the text
+  -width of the loading animation
+  -height duh-doy
+  -font-size of the text
+  -animation speed
+```
+<BarsJumpingAroundText
+  text="Please Wait" 
+  primColor="orange"
+  width="40vmin"
+  height="15vmin"
+  textSize="4vmin"
+  speed="1.5s"
 />
 ```
