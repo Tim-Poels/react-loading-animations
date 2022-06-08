@@ -1,0 +1,60 @@
+.BoxesPassingABox {
+  box-sizing: border-box;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.BoxesPassingABox-box-container {
+  box-sizing: border-box;
+  height: 56.5%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  transform: rotate(-45deg);
+}
+
+.BoxesPassingABox-box {
+  box-sizing: border-box;
+  height: 20%;
+  width: 56.5%;
+  background-color: rgb(230, 255, 128);
+  border-radius: 15%;
+  opacity: 0;
+}
+
+.BoxesPassingABox-middle-box {
+  opacity: 1;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes top-to-bottom {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(225deg);
+  }
+}
+
+@keyframes right-to-left {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}

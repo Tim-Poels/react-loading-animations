@@ -65,3 +65,16 @@ All animations have a standard template that can be manipulated through props, y
   speed="1.5s"
 />
 ```
+--4 boxes that pass around another box
+  -color of the 4 boxes
+  -color of the box that is being passed
+  -size of the container
+  -animation speed
+```
+<BoxesPassingABox
+	primColor="rgb(128, 255, 128)"
+	secndColor="rgb(230, 255, 128)"
+	size="15%"
+	speed=".3s"
+/>
+```
