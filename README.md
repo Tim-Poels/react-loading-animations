@@ -78,3 +78,18 @@ All animations have a standard template that can be manipulated through props, y
 	speed=".3s"
 />
 ```
+--Newtons cradle that swings left to right
+  -color of the balls
+  -color of the string
+  -color of the bar at the top
+  -size of the container
+  -speed of the animation
+```
+<SwingingPendulums 
+  primColor="orange"
+  secndColor="rgb(10, 10, 10)"
+  thirdColor="brown"
+  size="15%"
+	speed="1s"
+/>
+```
