@@ -26,6 +26,7 @@
   background-color: rgb(230, 255, 128);
   border-radius: 15%;
   opacity: 0;
+  box-shadow: 0px 0px 10px 0px black;
 }
 
 .BoxesPassingABox-middle-box {

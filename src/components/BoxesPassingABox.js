@@ -84,15 +84,14 @@ const startAnimations = (speed, containers) => {
               setTimeout(() => {
                 containers[0].style.animation = null;
 								containers[0].childNodes[2].style.opacity = "0";
-                containers[0].childNodes[0].style.opacity = "1";
 								startAnimations(speed, containers);
-							}, speed * 2000);
+							}, speed * 1990);
 						}, speed * 1000);
 					}, speed * 1000);
 				}, speed * 2000);
 			}, speed * 1000);
 		}, speed * 1000);
-	}, speed * 1);
+	}, speed * 10);
 }
 
 export default BoxesPassingABox
