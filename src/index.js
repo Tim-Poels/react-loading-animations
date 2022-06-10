@@ -5,16 +5,17 @@ import './index.css';
 //import TurningFillingSquare from './components/TurningFillingSquare.js';
 //import CirclingShadows1 from "./components/CirclingShadows1.js"
 //import BarsJumpingAroundText from "./components/BarsJumpingAroundText.js"
-import BoxesPassingABox from "./components/BoxesPassingABox.js";
+//import BoxesPassingABox from "./components/BoxesPassingABox.js";
 //import SwingingPendulums from './components/SwingingPendulums.js';
+import BallJumpingOnBars from './components/BallJumpingOnBars.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<BoxesPassingABox
-		size="40vmin"
-		primColor="rgb(128, 255, 128)"
-		secndColor="rgb(230, 255, 128)"
-		speed="0.2s"
-	/>
+	<BallJumpingOnBars 
+    size="15vmin"
+    primColor="yellow"
+    secondColor="yellow"
+    speed="2s"
+  />
 );
 

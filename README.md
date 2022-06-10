@@ -93,3 +93,16 @@ All animations have a standard template that can be manipulated through props, y
 	speed="1s"
 />
 ```
+--A ball jumping on to of 5 bars that keep changing height
+  -height and width of the container
+  -color of the bars
+  -color of the ball
+  -animation speed
+```
+<BallJumpingOnBars 
+  size="15vmin"
+  primColor="yellow"
+  secondColor="yellow"
+  speed="2s"
+/>
+```

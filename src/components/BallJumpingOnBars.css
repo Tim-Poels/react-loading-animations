@@ -1,0 +1,183 @@
+.BallJumpingOnBars-container {
+  box-sizing: border-box;
+  height: 40%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BallJumpingOnBars-ball {
+  height: 10%;
+  width: 10%;
+  background-color: white;
+  border-radius: 50%;
+  animation: ball 3s linear infinite;
+}
+
+@keyframes ball {
+  0% {
+    transform: translate(50%, 820%);
+  }
+  5% {
+    transform: translate(150%, 600%);
+  }
+  10% {
+    transform: translate(250%, 640%);
+  }
+  15% {
+    transform: translate(350%, 420%);
+  }
+  20% {
+    transform: translate(450%, 460%);
+  }
+  25% {
+    transform: translate(550%, 240%);
+  }
+  30% {
+    transform: translate(650%, 280%);
+  }
+  35% {
+    transform: translate(750%, 60%);
+  }
+  40% {
+    transform: translate(850%, 100%);
+  }
+  50% {
+    transform: translate(850%, 820%);
+  }
+  55% {
+    transform: translate(750%, 600%);
+  }
+  60% {
+    transform: translate(650%, 640%);
+  }
+  65% {
+    transform: translate(550%, 420%);
+  }
+  70% {
+    transform: translate(450%, 460%);
+  }
+  75% {
+    transform: translate(350%, 240%);
+  }
+  80% {
+    transform: translate(250%, 280%);
+  }
+  85% {
+    transform: translate(150%, 60%);
+  }
+  90% {
+    transform: translate(50%, 100%);
+  }
+  100% {
+    transform: translate(50%, 820%);
+  }
+}
+
+.BallJumpingOnBars-bars-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.BallJumpingOnBars-bars {
+  height: 10%;
+  width: 15%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+#BallJumpingOnBars-bar1 {
+  animation: bar1 3s linear infinite;
+}
+
+#BallJumpingOnBars-bar2 {
+  animation: bar2 3s linear infinite;
+}
+
+#BallJumpingOnBars-bar3 {
+  height: 55%;
+}
+
+#BallJumpingOnBars-bar4 {
+  animation: bar4 3s linear infinite;
+}
+
+#BallJumpingOnBars-bar5 {
+  animation: bar5 3s linear infinite;
+}
+
+@keyframes bar1 {
+  0% {
+    height: 10%;
+  }
+  40% {
+    height: 10%;
+  }
+  50% {
+    height: 100%
+  }
+  90% {
+    height: 100%;
+  }
+  100% {
+    height: 10%;
+  }
+}
+
+@keyframes bar2 {
+  0% {
+    height: 32.5%;
+  }
+  40% {
+    height: 32.5%;
+  }
+  50% {
+    height: 77.5%
+  }
+  90% {
+    height: 77.5%;
+  }
+  100% {
+    height: 32.5%;
+  }
+}
+
+@keyframes bar4 {
+  0% {
+    height: 77.5%;
+  }
+  40% {
+    height: 77.5%;
+  }
+  50% {
+    height: 32.5%
+  }
+  90% {
+    height: 32.5%;
+  }
+  100% {
+    height: 77.5%;
+  }
+}
+
+@keyframes bar5 {
+  0% {
+    height: 100%;
+  }
+  40% {
+    height: 100%;
+  }
+  50% {
+    height: 10%
+  }
+  90% {
+    height: 10%;
+  }
+  100% {
+    height: 100%;
+  }
+}
